@@ -10,7 +10,7 @@ const Hero = () => {
         <p className={styles.description}>
           Little Lemon is a family-owned Mediterranean restaurant based in Chicago, serving fresh, authentic dishes inspired by traditional recipes. Our passion lies in delivering vibrant flavors, warm hospitality, and a modern twist on classic cuisine.
         </p>
-        <button className={styles.cta}>Reserve a table</button>
+        <button className={styles.cta} onClick={() => window.location.href = '/reserve'}>Reserve a table</button>
       </div>
       <div className={styles.right}>
         <img className={styles.image} src={"/assets/BrushettaMini.jpg"} alt="Dish" />

@@ -11,6 +11,7 @@
   max-width: 70%;
   margin: 40px auto;
   margin-top: 160px;
+  gap: 32px;
 }
 
 .left {
@@ -71,4 +72,52 @@
   margin-right: 60px;
   border-radius: 15px;
   object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+  .heroContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 32px 16px;
+    max-width: 95%;
+    margin-top: 100px;
+    gap: 24px;
+  }
+  .left {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .right {
+    margin-top: 20px;
+  }
+  .image {
+    width: 320px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .heroContainer {
+    flex-direction: column;
+    padding: 18px 4vw;
+    margin-top: 60px;
+    gap: 16px;
+  }
+  .left h1 {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .cta {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px 0;
+  }
+  .image {
+    width: 90vw;
+    max-width: 260px;
+    margin-right: 0;
+  }
 }
