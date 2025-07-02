@@ -41,6 +41,16 @@
     background-color: rgba(199, 236, 201, 0.3);
 }
 
+.btn:hover {
+    cursor: pointer;
+    transform: scale(101%);
+    background-color: rgba(199, 236, 201, 0.5);
+}
+
+.btn:active {
+    background-color: rgba(65, 82, 65, 0.3);
+}
+
 .imgLeft {
     width: 30px;
     height: 47px;
@@ -74,4 +84,10 @@
 
 .center>p {
     margin: 0px 0px 0px 0px;
+}
+
+.center>p:hover {
+    transform: scale(1.03);
+    color: rgb(2, 80, 37);
+    cursor: pointer;
 }

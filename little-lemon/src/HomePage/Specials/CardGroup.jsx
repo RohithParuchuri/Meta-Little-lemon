@@ -34,6 +34,7 @@ const CardGroup = () => {
                     price={9.49}
                 />
             </div>
+            <button className={styles.btn}>Order Now</button>
         </div>
     )
 }
