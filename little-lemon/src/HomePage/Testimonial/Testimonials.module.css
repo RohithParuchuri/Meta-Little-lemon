@@ -1,0 +1,43 @@
+.testimonialSection {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #99f66771;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f7fda1d2;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  gap: 20px;
+}
+
+.avatar {
+  background-color: #ddd;
+  border-radius: 100%;
+}
+
+.text {
+  color: black;
+  text-align: left;
+  font-size: 16px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  user-select: none;
+}

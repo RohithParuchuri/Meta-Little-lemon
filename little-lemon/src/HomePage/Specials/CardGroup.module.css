@@ -1,0 +1,27 @@
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.colorContainer {
+    border-radius: 10px;
+    border: 2px solid rgb(184, 230, 124);
+    background-color: rgb(242, 255, 205);
+}
+
+.heading {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #63755d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 15%;
+    min-width: 250px;
+    border-radius: 20px;
+    justify-self: center;
+}
