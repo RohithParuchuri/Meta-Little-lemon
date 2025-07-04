@@ -23,7 +23,7 @@ const CoreNav = ({ specialsRef }) => {
                     <p>Booking</p>
                 </div>
 
-                <button className={styles.btn} onClick={()=>navigate('./login')}>
+                <button className={styles.btn} onClick={()=>navigate('/login')}>
                     <img className={styles.imgRight} src='/assets/account_circle.svg' alt='' />
                 </button>
             </div>

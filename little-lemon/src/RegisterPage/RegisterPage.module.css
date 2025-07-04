@@ -1,5 +1,5 @@
-/* RegisterPage.module.css */
-.registerContainer {
+/* LoginPage.module.css */
+.loginContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,14 +45,14 @@
   background-color: #63755d;
 }
 
-.loginLink {
+.registerLink {
   margin-top: 20px;
   font-size: 14px;
   color: #505f4c;
   text-decoration: none;
 }
 
-.loginLink:hover {
+.registerLink:hover {
   text-decoration: underline;
 }
 
@@ -61,7 +61,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f7fda1;
+  background: linear-gradient(to bottom, #eaffd0 0%, #f7fda1d2 100%);
 }
 
 .homeButton {

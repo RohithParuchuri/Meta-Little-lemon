@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './HomePage/HomePage';
 import LoginPage from './LoginPage/LoginPage';
 import RegisterPage from './RegisterPage/RegisterPage';
+import RegisterSuccess from './RegisterPage/RegisterSuccess';
 import React, { useEffect, useState } from 'react';
 import MobileBlocker from './MobileBlocker';
 import ReservePage from './ReservePage';
@@ -43,6 +44,10 @@ const App = () => {
     {
       path: '/register',
       element: <RegisterPage />
+    },
+    {
+      path: '/register-success',
+      element: <RegisterSuccess />
     },
     {
       path: '/reserve',

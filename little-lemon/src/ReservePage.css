@@ -52,6 +52,50 @@
   transition: border 0.2s;
 }
 
+.reserve-form {
+  position: relative;
+}
+
+.reserve-form .reserve-select-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.reserve-form select {
+  width: 100%;
+  padding-right: 2.5rem;
+}
+
+/* Custom dropdown arrow */
+.reserve-form .reserve-select-arrow {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 1.2rem;
+  color: #495e57;
+}
+
+.reserve-form select {
+  padding: 0.6rem 0.8rem;
+  border: 1.5px solid #bfcad6;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fff;
+  transition: border 0.2s;
+  color: #495e57;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+}
+
+.reserve-form select:focus {
+  border: 2px solid #495e57;
+}
+
 .reserve-form input:focus {
   border: 2px solid #495e57;
   outline: none;
