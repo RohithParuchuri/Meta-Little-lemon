@@ -1,0 +1,52 @@
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.colorContainer {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(184, 230, 124);
+    background-color: rgb(242, 255, 205);
+}
+
+.heading {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #63755d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 15%;
+    min-width: 250px;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+.btn {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    background-color: #0f3b00c4;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #0f3b00a9;
+}
+
+.btn:active {
+    background-color: #0f3b00f9;
+}

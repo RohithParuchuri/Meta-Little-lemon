@@ -1,0 +1,34 @@
+.mobile-blocker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.mobile-blocker-content {
+  background: rgba(255,255,255,0.95);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(60,60,60,0.15);
+  padding: 2.5rem 2rem;
+  text-align: center;
+  max-width: 90vw;
+}
+
+.mobile-blocker-content h1 {
+  color: #2d3748;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.mobile-blocker-content p {
+  color: #4a5568;
+  font-size: 1.1rem;
+  margin: 0;
+}
